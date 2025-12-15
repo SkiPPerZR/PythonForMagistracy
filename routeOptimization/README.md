@@ -73,8 +73,8 @@
 1. Склонируйте репозиторий:
 
 ```bash
-git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-cd <ИМЯ_ПАПКИ>
+git clone https://github.com/SkiPPerZR/PythonForMagistracy/tree/main/routeOptimization
+cd routeOptimization
 ```
 
 
