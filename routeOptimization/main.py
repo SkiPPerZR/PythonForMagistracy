@@ -280,13 +280,12 @@ def main():
         out_lines.append(format_route_line("СТОИМОСТЬ", routes["C"]))
         out_lines.append(format_route_line("КОМПРОМИСС", routes["COMP"]))
         if idx + 1 < len(requests):
-            out_lines.append("")  # пустая строка между запросами
+            out_lines.append("")  # empty line between queries
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n".join(out_lines))
 
 
 if __name__ == "__main__":
-    # ускоряем немного ввод/вывод
     sys.setrecursionlimit(1_000_000)
     main()
